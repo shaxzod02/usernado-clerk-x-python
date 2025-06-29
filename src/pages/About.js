@@ -23,7 +23,7 @@ const About = () => {
       title: "IlliniSpots: The Instagram of study spots at UIUC",
       description: "Shows all buildings on campus with room availability. Users can favorite buildings and comment.",
       demoLink: "https://example.com/",
-      githubLink: "https://github.com/aidanandrews22/IlliniSpots",
+      githubLink: "https://github.com/shaxzod02/IlliniSpots",
       tags: ["Swift, React Native", "Postgres, Firebase", "Search"]
     }
   ];
@@ -55,7 +55,7 @@ const About = () => {
       {pdfFiles
         .filter(pdf => pdf.group === group)
         .map(pdf => {
-          const staticUrl = `https://aidanandrews22.github.io/content/pdf/${pdf.name}`;
+          // const staticUrl = `https://aidanandrews22.github.io/content/pdf/${pdf.name}`;
           return (
             <div key={pdf.name} className="mb-2">
               <a
@@ -158,8 +158,8 @@ const About = () => {
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">Education</h2>
         <div>
-          <h3 className="text-xl font-semibold">University of Illinois Urbana-Champaign</h3>
-          <p className="text-sm text-text-secondary">2023 - 2026</p>
+          <h3 className="text-xl font-semibold">Changsha University of science and technology</h3>
+          <p className="text-sm text-text-secondary">2021 - 2025</p>
           <p className="mt-2">
             Studying B.S. in Physics from the Grainger College of Engineering. 3-year graduation.
           </p>

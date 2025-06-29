@@ -11,8 +11,8 @@ const Skills = () => {
   const skills = [
     { skill: "Machine Learning", icon: "/assets/ml.svg" },
     { skill: "Python", icon: "/assets/python.svg" },
-    { skill: "C++", icon: "/assets/c++.svg" },
-    { skill: "Rust", icon: "/assets/rust.svg" },
+    { skill: "JS", icon: "/assets/c++.svg" },
+    { skill: "Go", icon: "/assets/rust.svg" },
     { skill: "Deep Learning", icon: "/assets/deep.svg" },
     { skill: "Physics", icon: "/assets/phys.svg" },
     { skill: "Web Dev", icon: "/assets/webdev.svg" },
