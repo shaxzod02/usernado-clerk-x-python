@@ -80,7 +80,7 @@ const About = () => {
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="text-text-secondary mb-4">
-          I stream myself working on <a href="https://www.youtube.com/@aidanandrews/streams" target="_blank" rel="noopener noreferrer" className="text-primary">youtube</a>. 
+          I stream myself working on <a href=" " target="_blank" rel="noopener noreferrer" className="text-primary">youtube</a>. 
           As a current student and a researcher focused on machine learning applications in physics and biology, 
           I am deeply committed to using technology to solve complex problems. My academic and recreational projects 
           are where I try to apply my knowledge. I spend all of my time learning, researching, playing chess, and 
@@ -119,7 +119,7 @@ const About = () => {
           <p className="text-sm text-text-secondary">May 2024 - Aug 2024</p>
           <p className="mt-2">
             I developed advanced Natural Language Processing (NLP) systems, focusing on optimizing Retrieval-Augmented Generation (RAG) and enhancing intent classification. I designed and implemented a novel "wavular" RAG approach and a hybrid embedding-based classification system, demonstrating proficiency in large-scale information retrieval, machine learning, and deep learning methodologies. The work involved extensive use of Python, PyTorch, and TensorFlow, along with CUDA programming for GPU acceleration. I applied advanced NLP techniques including vector space models, similarity metrics (cosine similarity, Euclidean distance), and various text representation methods. The project required sophisticated data preprocessing and management for large-scale NLP datasets, showcasing my ability to develop innovative solutions for complex NLP challenges in resource-constrained environments.
-            <br></br><strong>Research Paper:</strong> <a href="https://aidanandrews.info/blog/ml130824" target="_blank">Optimizing Natural Language Processing Systems: Advanced RAG and Intent Classification</a>
+            <br></br><strong>Research Paper:</strong> <a href=" " target="_blank">Optimizing Natural Language Processing Systems: Advanced RAG and Intent Classification</a>
           </p>
         </div>
         <div className="mb-6">
@@ -161,7 +161,9 @@ const About = () => {
           <h3 className="text-xl font-semibold">Changsha University of science and technology</h3>
           <p className="text-sm text-text-secondary">2021 - 2025</p>
           <p className="mt-2">
-            Studying B.S. in Physics from the Grainger College of Engineering. 3-year graduation.
+            Bachelor of Science in Computer Science
+            Changsha University of Science and Technology (CSUST), China
+            Completed in 4 years
           </p>
         </div>
       </section>
