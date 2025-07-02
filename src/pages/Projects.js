@@ -3,24 +3,26 @@ import { Link, Route, Routes } from 'react-router-dom';
 import ProjectView from '../components/project/ProjectView';
 import LoadingSpinner from '../components/common/LoadingSpinner';
 import ErrorMessage from '../components/common/ErrorMessage';
+import { github } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 /* ---------------------- 1. STATIK LOYIHALAR RO‘YXATI ---------------------- */
 const PROJECTS = [
   {
-    id: 'illini-plan',
-    title: 'IlliniPlan: AI-Powered Class Planner',
+    id: 'ChromaPlot-Paper-Chromatography-Simulator',
+    title: 'ChromaPlot-Paper-Chromatography-Simulator',
     description:
-      'Course mapping, graduation tracking, and rule-enforcing scheduling with personalized recommendations.',
-    tags: ['React', 'LLM', 'Algorithms'],
-    demoLink: 'https://main.d3jmvbxto8loyp.amplifyapp.com/'
+      'Python (matplotlib, numpy), HTML, CSS, JavaScript ChromaPlot is a web-based tool for generating paper chromatography simulations of chemical compounds as animated GIFs..',
+    tags: ['Python', 'JavaScript', 'HTML', 'CSS'],
+    demoLink: 'https://chromaplot.com/',
+    githubLink: 'https://github.com/shaxzod02/ChromaPlot-Paper-Chromatography-Simulator'
   },
   {
-    id: 'illini-spots',
-    title: 'IlliniSpots: Study-Spot Sharing App',
+    id: 'SpectroSim',
+    title: 'SpectroSim Chemical Spectroscopy Simulator',
     description:
-      'Shows campus buildings with live room availability; users can favourite and comment.',
-    tags: ['React Native', 'Swift', 'Firebase', 'PostgreSQL'],
-    githubLink: 'https://github.com/shaxzod02/IlliniSpots'
+      'Visualize and simulate compound UV-Vis absorption spectra based on chemical parameters like λmax and εmax. Powered by a Gaussian distribution model in a Python FastAPI backend, integrated with PubChem API queries and custom result caching to support fast access to millions of compounds!',
+    tags: ['React + Vite', 'HTML', 'CSS', 'JavaScript', 'Python', 'FastAPI', 'JSON',],
+    githubLink: 'https://github.com/shaxzod02/spectro-sim'
   },
   {
     id: 'small-business-manager',
