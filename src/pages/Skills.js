@@ -9,10 +9,10 @@ const SkillTag = ({ skill, icon }) => (
 
 const Skills = () => {
   const skills = [
-    { skill: "Go", icon: "" },
-    { skill: "Python", icon: "" },
-    { skill: "JavaScript", icon: "" },
-    { skill: "TypeScript", icon: "" },
+    { skill: "Go", icon: "/assets/go.svg" },
+    { skill: "Python", icon: "/assets/python.svg" },
+    { skill: "JavaScript", icon: "/assets/Js.svg" },
+    { skill: "TypeScript", icon: "/assets/typescript.svg" },
     { skill: "Deep Learning", icon: "" },
     { skill: "Physics", icon: "" },
     { skill: "Web Dev", icon: "" },

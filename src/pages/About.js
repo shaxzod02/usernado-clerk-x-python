@@ -4,23 +4,23 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
   const currentProjects = [
-    {
-      id: "small-business-manager",
-      title: "Small Business Manager",
-      description:
-        "A desktop app for managing inventory, tracking sales/returns, and generating income statements. Built using Python, Tkinter, and SQLite3 with built-in double-entry accounting principles.",
-      tags: ["Python", "Tkinter", "SQLite3"],
-      githubLink: "https://github.com/shaxzod02/Small-Business-Manager"
-    },
-    {
-      id: "pywebhive",
-      title: "PyWebHive – Lightweight Python Web Framework",
-      description:
-        "A custom-built WSGI-compatible framework with routing, templating, static file handling, and published to PyPI. Used to deploy production-ready apps.",
-      tags: ["Python", "WSGI", "PyPI"],
-      githubLink: "https://github.com/shaxzod02/PyWebhive-Web-Framework",
-      demoLink: "https://pypi.org/project/pywebhive"
-    }
+    // {
+    //   id: "small-business-manager",
+    //   title: "Small Business Manager",
+    //   description:
+    //     "A desktop app for managing inventory, tracking sales/returns, and generating income statements. Built using Python, Tkinter, and SQLite3 with built-in double-entry accounting principles.",
+    //   tags: ["Python", "Tkinter", "SQLite3"],
+    //   githubLink: "https://github.com/shaxzod02/Small-Business-Manager"
+    // },
+    // {
+    //   id: "pywebhive",
+    //   title: "PyWebHive – Lightweight Python Web Framework",
+    //   description:
+    //     "A custom-built WSGI-compatible framework with routing, templating, static file handling, and published to PyPI. Used to deploy production-ready apps.",
+    //   tags: ["Python", "WSGI", "PyPI"],
+    //   githubLink: "https://github.com/shaxzod02/PyWebhive-Web-Framework",
+    //   demoLink: "https://pypi.org/project/pywebhive"
+    // }
   ];
 
   const CompactProjectCard = ({ id, title, description, tags, githubLink, demoLink }) => (
