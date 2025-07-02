@@ -3,7 +3,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import ProjectView from '../components/project/ProjectView';
 import LoadingSpinner from '../components/common/LoadingSpinner';
 import ErrorMessage from '../components/common/ErrorMessage';
-import { github } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+// import { github } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 /* ---------------------- 1. STATIK LOYIHALAR RO‘YXATI ---------------------- */
 const PROJECTS = [
@@ -28,15 +28,15 @@ const PROJECTS = [
     id: 'small-business-manager',
     title: 'Small Business Manager',
     description:
-      'Desktop app for inventory, sales/returns, and auto-generated financial statements.',
-    tags: ['Python', 'Tkinter', 'SQLite3'],
+      'Python (Tkinter), SQLite3, JSON A comprehensive, easy-to-use business ledger tool for small businesses, designed to track inventory, expense, sales/returns, and annual tinances througn double-entry accounting practices.',
+    tags: ['Python', 'Tkinter', 'SQLite3', 'JSON'],
     githubLink: 'https://github.com/shaxzod02/Small-Business-Manager'
   },
   {
     id: 'pywebhive',
     title: 'PyWebHive – Lightweight Python Web Framework',
     description:
-      'WSGI-compatible framework with routing, Jinja2 templating, middleware support, and PyPI release.',
+      'PyWebhive is a Python Web Framework built for learning purposes. The plan is to learn how frameworks are built by implementing their features, writing blog posts about them and keeping the codebase as simple as possible.',
     tags: ['Python', 'WSGI', 'Jinja2', 'PyPI'],
     githubLink: 'https://github.com/shaxzod02/PyWebhive-Web-Framework',
     demoLink: 'https://pypi.org/project/pywebhive'

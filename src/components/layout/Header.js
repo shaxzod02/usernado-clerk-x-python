@@ -16,7 +16,7 @@ const Header = () => {
                 <a href="tel:+998937390137" className="text-primary hover:underline">Phone</a> |
                 <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">LinkedIn</a> |
                 <a href="https://github.com/shaxzod02" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">GitHub</a> |
-                {/* <a href="" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Instagram</a> | */}
+                {/* <a href="" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"> Instagram</a> | */}
                 {/* <a href="" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">YouTube</a> */}
               </div>
             </div>

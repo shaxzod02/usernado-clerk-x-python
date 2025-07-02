@@ -65,7 +65,7 @@ const About = () => {
           <h3 className="text-xl font-semibold">Changsha University of Science and Technology</h3>
           <p className="text-sm text-text-secondary">2021 - 2025</p>
           <p className="mt-2">
-            Bachelor of Science in Computer Science. Focused on software engineering, algorithms, and web technologies.
+            Bachelor of Science in Computer Science.
           </p>
         </div>
       </section>
