@@ -15,7 +15,8 @@ const Skills = () => {
     { skill: "TypeScript", icon: "/assets/typescript.svg" },
     { skill: "React Js", icon: "/assets/react.svg" },
     { skill: "Django", icon: "/assets/django.svg" },
-    // { skill: "Web Dev", icon: "" },
+    
+    
   ];
 
   return (

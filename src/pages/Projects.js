@@ -34,7 +34,7 @@ const PROJECTS = [
   },
   {
     id: 'pywebhive',
-    title: 'PyWebHive – Lightweight Python Web Framework',
+    title: 'PyWebHive Python Web Framework',
     description:
       'PyWebhive is a Python Web Framework built for learning purposes. The plan is to learn how frameworks are built by implementing their features, writing blog posts about them and keeping the codebase as simple as possible.',
     tags: ['Python', 'WSGI', 'Jinja2', 'PyPI'],
